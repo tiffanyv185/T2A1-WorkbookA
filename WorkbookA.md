@@ -61,6 +61,20 @@ The principles and how they relate to social media are as listed:
 2. APP 2 -  Anonymity and pseudonymity: Users must have the option to remain anonymous or use a pseudonym when using social media services. e.g. When creating an account on a social media website, users are not required to provide their real names unless it is required by law.
 3. APP 3 - Collection of Solicited Personal Information: Developers can only collect information that is reasonably necesssary for the platform's operation.
 4. APP 4 - Dealing with Unsolicited Personal Information: Organisations must destroy information that it did not solicit. This principle ensures that organisations do not keep unecessary personal information of users.
-5. APP 5 - 
-
+5. APP 5 - Notifcation of the Collection of Personal Information: Users must be informed about the collection of their information. The purpose of collection and any third party information but be disclosed along with their rights regarding the information.
+6. 
+----
+### Q9.
+----
+### Q10.
+----
+### Q11.
+----
+### Q12. Spotify
+<b>1.</b> Spotify is one of the world's leading music streaming service. Here is a list of the many technologies that are utulised to build and operate the application:
+* Frontend:
+    * JavaScript: The main language for developing Spotify's web applications.
+    * React: A JavaScript library used for building user interfaces.
+    * Sass: A scripting language that is used to generate CSS for styling its web application.
+    
 
