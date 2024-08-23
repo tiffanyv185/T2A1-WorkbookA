@@ -45,27 +45,49 @@ In Agile, projects are divided into small, managable units of work called "sprin
 
 <u> Development and Testing </u>
 
-1. StandUps: Daily standups assist the team to stay on top of their work, share progress and quickly address any issues.
+1. StandUps: Daily standups assist the team to stay on top of their work, share progress and quickly address any issues. Standups are ideally held daily and each team member briefly discusses what they are doing and did the day before all the while the scrum master takes notes.
+
+2. Development: Developers will focus on delivering small increments of work so that it can be reviewed and tested regularly.
+
+3. Testing: Continuous integration is implemented to automatically build and test the API with each change. This allows the new features to integrate seamlessly.
+
+<u> Sprint Review </u>
+
+1. Sprint Review: After each sprint, a sprint review meeting is held where the team shows their completed work to stakeholders and gathers feedback. After this meeting, a retrospective meeting is held to reflect upon the sprint and to discuss what worked and what didn't and what the team could improve on in future sprints.
+
+Other important practices that the team must do in order to have a sucessful project is:
+
+- Create and provide ckear and comprehensive documentation for the API.
+- Utilising tools like Jira and Trello for task managment, and Slack or Teams for real-time communication.
+- Monitor performance and regularly provide and receive feedback.
+- Be able to regularly review and adapt Agile practices.
+- Encourage and enable team members to continuously learn and improve their skills.
 
 ---
 
 ### Q4.
+
 Source control, often also reffered to as version control, is the practice of managing and tracking codes and files over the duration of a project. This practice allows multiple developers to collaborate whilst keeping a history of changes.
 
 A standard source control for an API project can look like this:
 
 1. Initial setup:
-   * Creating a repository: A repository is a centralised location where the code and its history is stored. It can be hosted locally or on platforms like GitHub. After a repository is created, it is initialised with a 'README.md" file.
-   * Defining branching strategy: A branch in a parallel version of the codebase and there are different branching strategies. Typically, developers will have a 'main' branch that is production-ready and a 'develop' branch for ongoing development.
+
+   - Creating a repository: A repository is a centralised location where the code and its history is stored. It can be hosted locally or on platforms like GitHub. After a repository is created, it is initialised with a 'README.md" file.
+   - Defining branching strategy: A branch in a parallel version of the codebase and there are different branching strategies. Typically, developers will have a 'main' branch that is production-ready and a 'develop' branch for ongoing development.
 
 2. Developing Features:
-   * For all new features that are created and bugs that are fixed, a new branch is created and named respectively.
-   * Making changes: Ensure that changes are commited frequently with clear messages and documentation.
+
+   - For all new features that are created and bugs that are fixed, a new branch is created and named respectively.
+   - Making changes: Ensure that changes are commited frequently with clear messages and documentation.
 
 3. Code Review:
-   * Open a pull request: 
 
+   - Open a pull request: Once features are completed by on its respective branch, a pull request is created to merge the code into the develop branch. Pull requests should include detailed description of the changes and any other relevant information. Team members then review the code in the pull request, provide feedback and or approve of the changes.
 
+4. Merging
+   - After the code is reviewed successfully and pass all testing, the feature branch is then merged into the develop branch, then the feature branch is usually deleted after merging. Once code is merged into the developing branch, further tests are ran to ensure that all features work together.
+     Finally, when the develop branch reaches a stable point with all the features, a release branch is created, tested and then merged into the main branch.
 
 ---
 
@@ -74,17 +96,22 @@ A standard source control for an API project can look like this:
 ---
 
 ### Q6.
- Information system security is the important practice of protecting information systems from threats. The three core principles of information system security is <b> confidentiality, integrity and availability of data</b> (Fortinet, n.d.).
+
+Information system security is the important practice of protecting information systems from threats. The three core principles of information system security is <b> confidentiality, integrity and availability of data</b> (Fortinet, n.d.).
 
 <b>Confidentiality:</b> Confidentiality ensures that sensitive information can only be accessed by those authorised to view it. This process involves protecting data from unauthorised access and ensuring that only intended users can access and handle the information. A common method that this principle is carried out is through encryption. This is used commonly when people use online banking, where their important and sensitive financial data is encrypted to ensure that only the bank account owner and the back can access it. (NIST, 2020)
 
-<b>Integrity:</b> Integrity refers to the accuracy of information. This core principle makes certain that data cannot be tampered with by unauthorised parties or processes. Database integrity constraints often used to uphold integrity. These are rules that are applied to databases to ensure the accuracy and consistency of data (RiskXchange, 2023). Weak integrity of data can have severe reprecussions for everyone, for example, hackers being able to steal credit card information by accessing bank databases illegally. 
+<b>Integrity:</b> Integrity refers to the accuracy of information. This core principle makes certain that data cannot be tampered with by unauthorised parties or processes. Database integrity constraints often used to uphold integrity. These are rules that are applied to databases to ensure the accuracy and consistency of data (RiskXchange, 2023). Weak integrity of data can have severe reprecussions for everyone, for example, hackers being able to steal credit card information by accessing bank databases illegally.
 
 <b>Availability:</b> Availability ensures that information can be readily accessed by authorused users. An example method that is used to ensure information availibility is by using redundant systems. For example, a company may use multiple servers in various locations to ensure that if one server fails, another can be utilised, without any downtime and maintaining constant access to users.
 
 ---
 
 ### Q7.
+
+Implementing the principle of availability in an API project involves ensuring that the API is accessible and functional when needed, with minimal performance issues and downtime. Practices that ensure high availability are:
+
+1.
 
 ---
 
